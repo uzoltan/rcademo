@@ -12,8 +12,8 @@ import java.util.List;
 
 public class CloudToDevice {
 
-  private static final String connectionString =
-      "HostName=still-test.azure-devices.net;SharedAccessKeyName=iothubowner;" + "SharedAccessKey=1X8nf385orzjnFcMZamy5ZPLKmDDNu/BUaHA4FwrV5o=";
+  private static final String connectionString = "HostName=RCADemo.azure-devices.net;SharedAccessKeyName=iothubowner;"
+      + "SharedAccessKey=zgw95E1XghmEVjDozfdyvMrJFAvoTF5zsNZJ6AYXcAU=";
   private static final String deviceId = "RCAAndroid";
   private static final IotHubServiceClientProtocol protocol = IotHubServiceClientProtocol.AMQPS;
 

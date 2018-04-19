@@ -7,10 +7,14 @@ import java.time.Instant;
 
 class DeviceToCloud {
 
+  //rcademo
+  //Endpoint=sb://iothub-ns-rcademo-430862-3abba0a57f.servicebus.windows.net/;SharedAccessKeyName=iothubowner;
+  // SharedAccessKey=zgw95E1XghmEVjDozfdyvMrJFAvoTF5zsNZJ6AYXcAU=
 
-  private static String connStr = "Endpoint=sb://ihsuprodamres068dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;"
-      + "SharedAccessKey=1X8nf385orzjnFcMZamy5ZPLKmDDNu/BUaHA4FwrV5o=;EntityPath=iothub-ehub-still-test-359374-d1c474a3fd;"
-      + "SharedAccessKeyName=iothubowner;SharedAccessKey=1X8nf385orzjnFcMZamy5ZPLKmDDNu/BUaHA4FwrV5o=";
+  private static String connStr =
+      "Endpoint=sb://iothub-ns-rcademo-430862-3abba0a57f.servicebus.windows.net/;SharedAccessKeyName=iothubowner;"
+          + "SharedAccessKey=zgw95E1XghmEVjDozfdyvMrJFAvoTF5zsNZJ6AYXcAU=;EntityPath=rcademo;"
+          + "SharedAccessKeyName=iothubowner;SharedAccessKey=zgw95E1XghmEVjDozfdyvMrJFAvoTF5zsNZJ6AYXcAU=";
 
   // Create a receiver on a partition.
   static EventHubClient receiveMessages(final String partitionId) {
